@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import store from './api/models/store.js';
+import cors from 'cors';
 
 const app = express()
 const port = 5500
@@ -55,5 +56,6 @@ app.listen(port, () => {
     console.log(`Server is listening at http://localhost:${port}`)
 })
 
+app.use(cors());
 
 

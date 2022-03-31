@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "serve": "nodemon app.js"
+    "serve": "nodemon src/app.js"
   },
   "dependencies": {
     "awilix": "^7.0.1",
